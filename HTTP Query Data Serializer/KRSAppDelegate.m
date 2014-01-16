@@ -7,11 +7,30 @@
 //
 
 #import "KRSAppDelegate.h"
+#import "KRSQueryDataSerializer.h"
 
 @implementation KRSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSDictionary *data = @{
+        @"languages": @[
+            @"Objective-C",
+            @"C",
+            @"Ruby",
+            @"Python"
+            @"Javascript"
+        ],
+        @"todos": @[
+            @"Sample Task",
+            @"Another Sample Task"
+        ]
+    };
+
+    NSString *queryString = [KRSQueryDataSerializer stringFromDictionary:data];
+    
+    NSLog(@"%@", queryString);
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

@@ -19,6 +19,7 @@
 		62EFB3F11888644000AC38D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EFB3D91888644000AC38D1 /* UIKit.framework */; };
 		62EFB3F91888644000AC38D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62EFB3F71888644000AC38D1 /* InfoPlist.strings */; };
 		62EFB3FB1888644000AC38D1 /* HTTP_Query_Data_SerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EFB3FA1888644000AC38D1 /* HTTP_Query_Data_SerializerTests.m */; };
+		62EFB4061888645B00AC38D1 /* KRSQueryDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EFB4051888645B00AC38D1 /* KRSQueryDataSerializer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		62EFB3F61888644000AC38D1 /* HTTP Query Data SerializerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTTP Query Data SerializerTests-Info.plist"; sourceTree = "<group>"; };
 		62EFB3F81888644000AC38D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62EFB3FA1888644000AC38D1 /* HTTP_Query_Data_SerializerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTP_Query_Data_SerializerTests.m; sourceTree = "<group>"; };
+		62EFB4041888645B00AC38D1 /* KRSQueryDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRSQueryDataSerializer.h; sourceTree = "<group>"; };
+		62EFB4051888645B00AC38D1 /* KRSQueryDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRSQueryDataSerializer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				62EFB3E51888644000AC38D1 /* KRSAppDelegate.m */,
 				62EFB3E71888644000AC38D1 /* Images.xcassets */,
 				62EFB3DC1888644000AC38D1 /* Supporting Files */,
+				62EFB4041888645B00AC38D1 /* KRSQueryDataSerializer.h */,
+				62EFB4051888645B00AC38D1 /* KRSQueryDataSerializer.m */,
 			);
 			path = "HTTP Query Data Serializer";
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62EFB3E21888644000AC38D1 /* main.m in Sources */,
+				62EFB4061888645B00AC38D1 /* KRSQueryDataSerializer.m in Sources */,
 				62EFB3E61888644000AC38D1 /* KRSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
