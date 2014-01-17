@@ -5,5 +5,5 @@ I created this class because I couldn’t find an existing solution that would c
 
 
 TODO: 
-- [ ] Add errors
-- [ ] Test more thoroughly 
+- [  ] Add errors
+- [  ] Test more thoroughly 
